@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert Celsius (°C) to Fahrenheit (°F) below"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/CelsiusInput_CtoF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:hint="Enter Temperature in Celsius (°C)" />
+
+    <Button
+        android:id="@+id/FirstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Calculate Temperature Value"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/resultOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will be displayed here"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Convert Fahrenheit (°F) to Celsius (°C) below"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/FInput_FtoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:hint="Enter Temperature in Celsius (°C)" />
+
+    <Button
+        android:id="@+id/SecondButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Calculate Temperature Value"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/resultTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will be displayed here"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+</LinearLayout>
